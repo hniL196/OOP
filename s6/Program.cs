@@ -9,10 +9,8 @@ namespace a
         public static void Main(string[] args)
         {
             Student student1 = new Student();
-            student1.Display(student1);
-            
+            student1.Display(student1);   
            
-
             Student student1b = new Student(2, "linh");
             student1b.Display(student1b);
 
